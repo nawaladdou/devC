@@ -11,9 +11,18 @@ long double x, y;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::cout << "Hello world!" << std::endl;
+	std::cout << "Calcul de moyenne" << std::endl;
 
     int age;
     cin >> age;
+
+	 /*printf("Calcul de moyenne\n");   
+    printf("Entrez le premier nombre : ");
+    scanf("%Lf", &x);            
+    printf("\nEntrez le deuxième nombre : ");
+    scanf("%Lf", &y);            
+    printf("\nLa valeur moyenne de %Lf et de %Lf est %Lf.\n",
+        x, y, (x+y)/2);*/
+    return 0;
 }
 
